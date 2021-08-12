@@ -30,7 +30,7 @@ export default function Navbar(props) {
                     <a href="#home" className="navbar-link mb-0 mx-2">Home</a>
                     <a href="#about" className="navbar-link mb-0 mx-2">About us</a>
                     <a href="#gallery" className="navbar-link mb-0 mx-2">Gallery</a>
-                    <a href="#contact" className="navbar-link mb-0 mx-2">Contact</a>
+                    <a href="#contact" className="btn btn-dark mx-2">Contact</a>
                 </span>
                 <a className="navbar-toggler d-block d-md-none border-white" type="button" data-bs-toggle="collapse" data-bs-target="#menuContent" aria-controls="menuContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} className="text-dark"/>

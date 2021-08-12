@@ -2,7 +2,7 @@
 
 export default function Home() {
     return (
-        <div className="vh-100"> 
+        <div className="vh-100" id="home"> 
             <div className="h-100 d-flex justify-content-center align-items-center">
                 <div className="row w-75">
                     <div className="col-12 col-md-7 text-center text-md-start">

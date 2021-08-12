@@ -1,10 +1,27 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faFacebook, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 export default function Navbar(props) {
   return (
     <>
+        <div className="collapse fixed-top" id="menuContent">
+          <div className="bg-light p-4">
+            <div style={{ height: '80px' }}></div>
+            <ul className="p-0 px-5 list-unstyled">
+              <li className="my-3 text-end"><a className="menu-link" href="#"> Home</a></li>
+              <li className="my-3 text-end"><a className="menu-link" href="#">About</a></li>
+              <li className="my-3 text-end"><a className="menu-link" href="#">Gallery</a></li>
+              <li className="my-3 text-end"><a className="menu-link" href="#">Contact us</a></li>
+              <li className="my-3 d-flex justify-content-end">
+                <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faFacebook} /></a> 
+                <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faInstagram} /></a> 
+                <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faLinkedin} /></a> 
+                <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faYoutube} /></a> 
+              </li>
+            </ul>
+          </div>
+        </div>
         <nav className="navbar navbar-light bg-white shadow-sm fixed-top" style={{ height: '80px' }}>
             <div className="container-fluid justify-content-around">
                 <span className="navbar-brand mb-0 navbar-heading">Zue Technologies</span>
@@ -20,20 +37,7 @@ export default function Navbar(props) {
                 </a>
             </div>
         </nav>
-        <div className="collapse" id="menuContent">
-          <div className="bg-white p-4">
-            <ul className="p-0 px-5">
-              <li className="li my-3 text-end"><a className="menu-link" href="#"> Home</a></li>
-              <li className="li my-3 text-end"><a className="menu-link" href="#">About</a></li>
-              <li className="li my-3 text-end"><a className="menu-link" href="#">Gallery</a></li>
-              <li className="li my-3 text-end"><a className="menu-link" href="#">Contact us</a></li>
-            </ul>
-            <div className="row">
-                <FontAwesomeIcon icon={faInstagram} />
-
-            </div>
-          </div>
-        </div>
+        
         {props.children}
     </>
   );

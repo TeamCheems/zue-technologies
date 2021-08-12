@@ -16,10 +16,6 @@ body {
   color: black;
 }
 
-.li {
-  list-style-type: none;
-}
-
 .menu-link {
   text-decoration: none;
   color: black;

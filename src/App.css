@@ -4,8 +4,23 @@
 }
 
 .navbar-link {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
   font-weight: 700;
   font-size: 1.1rem;
+}
+
+.menu-link {
+  list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-heading {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .collapse {
+    display: none !important;
+  }
 }

@@ -5,7 +5,7 @@ import { faInstagram, faFacebook, faLinkedin, faYoutube } from '@fortawesome/fre
 export default function Navbar(props) {
   return (
     <>
-        <div className="collapse fixed-top" id="menuContent">
+        <div className="collapse fixed-top shadow-lg" id="menuContent">
           <div className="bg-light p-4">
             <div style={{ height: '80px' }}></div>
             <ul className="p-0 px-5 list-unstyled">

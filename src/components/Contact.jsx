@@ -1,7 +1,7 @@
 export default function Home() {
     return (
-        <div style={{ height: '100vh'}}> 
-            <h1> Home </h1>
+        <div className="vh-100 bg-dark"> 
+            <h1> Contact </h1>
         </div>
     )
 }

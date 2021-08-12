@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div style={{ height: '100vh'}}> 
+        <div className="vh-100 bg-light"> 
             <h1> Home </h1>
         </div>
     )

@@ -52,6 +52,9 @@ body {
     font-size: 1.5rem !important;
     font-weight: bold;
   }
+  .pic{
+    height: 20rem;
+  }
 }
 
 @media (min-width: 768px) {

@@ -9,10 +9,10 @@ export default function Navbar(props) {
           <div className="bg-light p-4">
             <div style={{ height: '80px' }}></div>
             <ul className="p-0 px-5 list-unstyled">
-              <li className="my-3 text-end"><a className="menu-link" href="#"> Home</a></li>
-              <li className="my-3 text-end"><a className="menu-link" href="#">About</a></li>
-              <li className="my-3 text-end"><a className="menu-link" href="#">Gallery</a></li>
-              <li className="my-3 text-end"><a className="menu-link" href="#">Contact us</a></li>
+              <li className="my-3 text-end"><a className="menu-link" href="#home"> Home</a></li>
+              <li className="my-3 text-end"><a className="menu-link" href="#about">About</a></li>
+              <li className="my-3 text-end"><a className="menu-link" href="#gallery">Gallery</a></li>
+              <li className="my-3 text-end"><a className="menu-link" href="#contact">Contact us</a></li>
               <li className="my-3 d-flex justify-content-end">
                 <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faFacebook} /></a> 
                 <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faInstagram} /></a> 
@@ -27,10 +27,10 @@ export default function Navbar(props) {
                 <span className="navbar-brand mb-0 navbar-heading">Zue Technologies</span>
                 <span className="navbar-brand mb-0 h1"></span>
                 <span className="navbar-brand mb-0 h1 d-none d-md-block">
-                    <a href="#" className="navbar-link mb-0 mx-2">Home</a>
-                    <a href="#" className="navbar-link mb-0 mx-2">About us</a>
-                    <a href="#" className="navbar-link mb-0 mx-2">Gallery</a>
-                    <a href="#" className="navbar-link mb-0 mx-2">Contact</a>
+                    <a href="#home" className="navbar-link mb-0 mx-2">Home</a>
+                    <a href="#about" className="navbar-link mb-0 mx-2">About us</a>
+                    <a href="#gallery" className="navbar-link mb-0 mx-2">Gallery</a>
+                    <a href="#contact" className="btn btn-dark mx-2">Contact</a>
                 </span>
                 <a className="navbar-toggler d-block d-md-none border-white" type="button" data-bs-toggle="collapse" data-bs-target="#menuContent" aria-controls="menuContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} className="text-dark"/>

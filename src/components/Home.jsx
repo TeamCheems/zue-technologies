@@ -9,7 +9,7 @@ export default function Home() {
                         <h1 className="font-weight-bold"> Your right stop for </h1>
                         <h1 style={{ fontWeight: 'bolder'}}> industrial automation solutions.</h1>
                     </div>
-                    <div className="col-12 col-md-5 text-center">Your Image goes here</div>
+                    <div className="col-12 col-md-5 text-center"><img className="pic" src="frontpic.png"/></div>
                 </div>
                 
             </div>

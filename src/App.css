@@ -3,6 +3,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.pic{
+  height: 30rem;
+}
 
 .navbar-heading {
   font-size: 1.7rem !important;

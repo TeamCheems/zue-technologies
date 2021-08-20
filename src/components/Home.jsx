@@ -17,7 +17,7 @@ export default function Home(){
                                 strings:[
                                     "Industrial Automation Solutions.",
                                     "Students Project Work Guidance.",
-                                    "Develope Your Great Ideas."
+                                    "Develop Your Great Ideas."
                                 ],
                             }}/>
                             </h1>

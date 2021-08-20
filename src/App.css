@@ -15,7 +15,7 @@ body {
   font-size: 70px;
 }
 .pic{
-  height: 27rem;
+  height: 25rem;
 }
 
 .navbar-heading {
@@ -70,7 +70,7 @@ body {
 {
   /* style={{ fontWeight: 'bolder',fontSize: '70px' }} */
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 100px;
 }
   .pic{
     height: 20rem;

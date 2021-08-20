@@ -4,6 +4,19 @@ body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+.title-small
+{
+  font-size: 50px;
+}
+.title-large
+{
+  /* style={{ fontWeight: 'bolder',fontSize: '70px' }} */
+  font-weight: bolder;
+  font-size: 70px;
+}
+.pic{
+  height: 27rem;
+}
 
 .navbar-heading {
   font-size: 1.7rem !important;
@@ -26,10 +39,41 @@ body {
   height: 100vh;
 }
 
+.vh-80 {
+  height: 80vh;
+}
+
+.vh-20 {
+  height: 20vh;
+}
+
+.about-title {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.about-content {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
   .navbar-heading {
     font-size: 1.5rem !important;
     font-weight: bold;
+  }
+  .title-small
+{
+  font-size: 30px;
+}
+.title-large
+{
+  /* style={{ fontWeight: 'bolder',fontSize: '70px' }} */
+  font-weight: bolder;
+  font-size: 40px;
+}
+  .pic{
+    height: 20rem;
   }
 }
 
@@ -37,4 +81,17 @@ body {
   .collapse {
     display: none !important;
   }
+}
+
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(180, 180, 180, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(199, 199, 199);
 }

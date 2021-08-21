@@ -21,7 +21,7 @@ export default function Home(){
                             ],
                         }}/>
                             </h1>
-                            <button className="btn-lg btn-dark my-5">Get in touch</button>
+                            <button className="btn-lg my-5">Get in touch</button>
                     </div>
                     <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 padding_zero">
                         <img className="pic " src="frontpic.png"/>

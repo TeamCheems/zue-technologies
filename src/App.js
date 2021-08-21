@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar>
         <Home></Home>
-        <section className="bg-light vh-20"></section>
+        <section className="bg-dark vh-20 shadow-lg p-5 mb-5 bg-light rounded"></section>
         <About></About>
         <Bothub></Bothub>
         <Contact></Contact>

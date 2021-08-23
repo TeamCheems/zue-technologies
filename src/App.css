@@ -77,6 +77,10 @@ body {
     height: 20rem;
   }
 }
+.font{
+  font-weight: bold;
+  color: #ffffff;
+}
 
 @media (min-width: 768px) {
   .collapse {

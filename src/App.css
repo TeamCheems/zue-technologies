@@ -298,17 +298,17 @@ button:hover:active:before {
 {
   background-color:#3b5998
 }
-.social-icons a.twitter:hover
+.social-icons a.youtube:hover
 {
-  background-color:#00aced
+  background-color:#FF0000
 }
 .social-icons a.linkedin:hover
 {
-  background-color:#007bb6
+  background-color:#0077b5
 }
-.social-icons a.dribbble:hover
+.social-icons a.instagram:hover
 {
-  background-color:#ea4c89
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)
 }
 @media (max-width:767px)
 {

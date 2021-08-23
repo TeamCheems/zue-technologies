@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 export default function Home() {
     return (
         // <div className="vh-100 bg-dark" id="contact"> 
@@ -33,13 +35,13 @@ export default function Home() {
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <ul class="social-icons">
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a class="linkedin" href=""><i class="fa fa-linkedin"></i></a></li>   
+                            <li><a class="facebook" href="https://www.facebook.com/zuetechnologies.zuetechnologies"><FontAwesomeIcon icon={faFacebook} /><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="youtube" href="#"><FontAwesomeIcon icon={faYoutube} /><i class="fa fa-youtube"></i></a></li>
+                            <li><a class="instagram" href="https://www.instagram.com/zue_technologies/?hl=en"><FontAwesomeIcon icon={faInstagram} /><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="linkedin" href="https://www.linkedin.com/in/zue-technologies-7514a21b9/"><FontAwesomeIcon icon={faLinkedin} /><i class="fa fa-linkedin"></i></a></li>   
                         </ul>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                        <button className="btn-lg my-5">Get in touch</button>
+                        <button className="btn-lg my-5 shadow-lg btn-light">Get in touch</button>
                         </div>
                     </div>
                 </div>

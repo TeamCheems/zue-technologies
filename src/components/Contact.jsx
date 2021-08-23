@@ -4,32 +4,22 @@ export default function Home() {
             <footer class="site-footer">
                 <div class="container">
                 <div class="row">
+                <h1>Contact</h1>
                     <div class="col-sm-12 col-md-6">
-                        <h6>About</h6>
-                        <p class="text-justify">Build a secure, future-proof application through the latest technologies and enhance your user experience</p>
+                        <h6>Zue Technologies</h6>
+                        <p class="text-justify">Build your Ideas.</p>
+                    </div>
+
+                    <div class="col-xs-8 col-md-3">
+                        <h6>Phone</h6>
+                        <h6>9790013652</h6>
+                      
                     </div>
 
                     <div class="col-xs-6 col-md-3">
-                        <h6>Categories</h6>
-                        <ul class="footer-links">
-                            <li><a href="#">C</a></li>
-                            <li><a href="#">UI Design</a></li>
-                            <li><a href="#">PHP</a></li>
-                            <li><a href="#">Java</a></li>
-                            <li><a href="#">Android</a></li>
-                            <li><a href="#">Templates</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3">
-                        <h6>Quick Links</h6>
-                        <ul class="footer-links">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Contribute</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Sitemap</a></li>
-                        </ul>
+                    <h6>Address</h6>
+                        <h6>Ashok Nagar, Chennai</h6>
+                       
                     </div>
                 </div>
                 </div>
@@ -43,11 +33,14 @@ export default function Home() {
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <ul class="social-icons">
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                            <li><a class="linkedin" href=""><i class="fa fa-linkedin"></i></a></li>   
                         </ul>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <button className="btn-lg my-5">Get in touch</button>
+                        </div>
                     </div>
                 </div>
                 </div>

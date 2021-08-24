@@ -11,6 +11,7 @@ export default function Navbar(props) {
             <ul className="p-0 px-5 list-unstyled">
               <li className="my-3 text-end"><a className="menu-link" href="#home"> Home</a></li>
               <li className="my-3 text-end"><a className="menu-link" href="#about">About</a></li>
+              <li className="my-3 text-end"><a className="menu-link" href="#services"> Services</a></li>
               <li className="my-3 text-end"><a className="menu-link" href="#gallery">Gallery</a></li>
               <li className="my-3 text-end"><a className="menu-link" href="#contact">Contact us</a></li>
               <li className="my-3 d-flex justify-content-end">
@@ -29,6 +30,7 @@ export default function Navbar(props) {
                 <span className="navbar-brand mb-0 h1 d-none d-md-block">
                     <a href="#home" className="navbar-link mb-0 mx-2">Home</a>
                     <a href="#about" className="navbar-link mb-0 mx-2">About us</a>
+                    <a href="#services" className="navbar-link mb-0 mx-2">Services</a>
                     <a href="#gallery" className="navbar-link mb-0 mx-2">Gallery</a>
                     <a href="#contact" className="btn btn-dark mx-2">Contact</a>
                 </span>

@@ -4,6 +4,7 @@ import About from './components/About';
 import Bothub from './components/Bothub';
 import Contact from './components/Contact';
 import Services from './components/Services';
+import Client from './components/Client';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
         <About></About>
         <Services></Services>
         <Bothub></Bothub>
+        <Client></Client>
         <Contact></Contact>
       </Navbar>
     </div>

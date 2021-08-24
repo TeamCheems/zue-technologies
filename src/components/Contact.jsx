@@ -35,8 +35,8 @@ export default function Home() {
                         </ul>
                         <div class="row">
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <p class="copyright-text">Copyright &copy; 2021 || All Rights Reserved by  </p>
-                        <p class="copyright-text"><a href="#"> Zue Technologies</a></p>.
+                        <p class="copyright-text">Copyright &copy; 2021|| All Rights Reserved by</p>
+                        <p class="copyright-text"><a href="#"> Zue Technologies</a></p>
                        
                     </div>
                         </div>

@@ -15,6 +15,9 @@ body {
 .pic {
   height: 25rem;
 }
+.hero {
+  min-height: 100vh;
+}
 
 .navbar-heading {
   font-size: 1.7rem !important;
@@ -75,9 +78,6 @@ body {
     /* style={{ fontWeight: 'bolder',fontSize: '70px' }} */
     font-weight: bolder;
     font-size: 100px;
-  }
-  .pic {
-    height: 20rem;
   }
 }
 
@@ -234,6 +234,9 @@ button:hover:active:before {
 @media (max-width: 991px) {
   .site-footer [class^="col-"] {
     margin-bottom: 30px;
+  }
+  .pic {
+    display: none;
   }
 }
 @media (max-width: 767px) {

@@ -1,10 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faFacebook, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faFacebook, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'; 
+
 
 export default function Navbar(props) {
   return (
     <>
+        
         <div className="collapse fixed-top shadow-lg" id="menuContent">
           <div className="bg-light p-4">
             <div style={{ height: '80px' }}></div>
@@ -23,13 +25,13 @@ export default function Navbar(props) {
             </ul>
           </div>
         </div>
-        <nav className="navbar navbar-light bg-white shadow-sm fixed-top" style={{ height: '80px' }}>
+        <nav className="navbar navbar-light bg-white shadow-sm fixed-top headroom" style={{ height: '80px' }}>
             <div className="container-fluid justify-content-around">
                 <span className="navbar-brand mb-0 navbar-heading">Zue Technologies</span>
                 <span className="navbar-brand mb-0 h1"></span>
                 <span className="navbar-brand mb-0 h1 d-none d-md-block">
-                    <a href="#home" className="navbar-link mb-0 mx-2">Home</a>
-                    <a href="#about" className="navbar-link mb-0 mx-2">About us</a>
+                    <a href="#home-anchor" className="navbar-link mb-0 mx-2">Home</a>
+                    <a href="#about-anchor" className="navbar-link mb-0 mx-2">About us</a>
                     <a href="#services" className="navbar-link mb-0 mx-2">Services</a>
                     <a href="#gallery" className="navbar-link mb-0 mx-2">Gallery</a>
                     <a href="#contact" className="btn btn-dark mx-2">Contact</a>
@@ -39,7 +41,6 @@ export default function Navbar(props) {
                 </a>
             </div>
         </nav>
-        
         {props.children}
     </>
   );

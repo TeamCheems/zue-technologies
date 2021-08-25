@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar>
+      <Navbar> 
         <Home></Home>
         <section className="bg-dark vh-20 shadow-lg p-5 mb-5 bg-light"></section>
         <About></About>

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faIndustry, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faUniversity, faArrowRight, faRocket, faChalkboardTeacher, faUsers, faHome, faCogs} from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
     return (
@@ -11,7 +11,7 @@ export default function About() {
                 </div>
                 <div className="row justify-content-center my-3">
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faIndustry} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faUniversity} /></a> 
                         <div className="about-title my-3">
                             Project for Educational Institute
                         </div>
@@ -23,7 +23,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faIndustry} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faChalkboardTeacher} /></a> 
                         <div className="about-title my-3">
                             Project Guidance for Students
                         </div>
@@ -35,7 +35,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faIndustry} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faUsers} /></a> 
                         <div className="about-title my-3">
                             Project for Public User
                         </div>
@@ -47,7 +47,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faIndustry} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faCogs} /></a> 
                         <div className="about-title my-3">
                             Industrial Automation 
                         </div>
@@ -59,7 +59,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faIndustry} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faRocket} /></a> 
                         <div className="about-title my-3">
                             Special Purpose Machine
                         </div>
@@ -71,7 +71,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faIndustry} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faHome} /></a> 
                         <div className="about-title my-3">
                             Residential Automation
                         </div>

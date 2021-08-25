@@ -1,4 +1,5 @@
 import React from "react";
+import Grid from '@material-ui/core/Grid';
 
 export default function About() {
   return (
@@ -9,7 +10,10 @@ export default function About() {
           <div className="col-lg-7 col-md-12 col-sm-12 col-xs-12 padding_zero">
           
             <div className="col justify-content-center my-3">
-              <div className="row">
+            <Grid
+            container
+            direction="row"
+            >
                     <div className="col-12 col-md-6 m-3 bg-light rounded p-4">
                         <div className="about-content">
                         We are a group of engineering enthusiasts, featuring an exclusive range of utility projects for all 
@@ -29,7 +33,7 @@ export default function About() {
           
                         </div>
                     </div>
-                    </div>
+                    </Grid>
                     <div className="row">
                    
                     <div className="col-12 col-md-6 m-3 bg-light rounded p-4">

@@ -99,7 +99,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: rgb(199, 199, 199);
 }
-button {
+#getintouch {
   position: relative;
   height: 60px;
   width: 200px;
@@ -113,7 +113,7 @@ button {
   font-family: "Raleway", sans-serif;
 }
 
-button:before {
+#getintouch:before {
   position: absolute;
   content: "";
   top: -2px;
@@ -141,15 +141,15 @@ button:before {
   animation: animate 20s linear infinite;
 }
 
-button:hover:before {
+#getintouch:hover:before {
   opacity: 1;
 }
 
-button:hover:active {
+#getintouch:hover:active {
   background: none;
 }
 
-button:hover:active:before {
+#getintouch:hover:active:before {
   filter: blur(2px);
 }
 

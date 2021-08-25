@@ -5,7 +5,7 @@ export default function Bothub() {
                 <div className="row">
                     <div className="text-center pt-5 h2 " style={{ fontWeight: 'bolder'}}>Gallery</div>
                     <div className="text-center pt-3 pb-3 h6" style={{ fontWeight: '500'}}>
-                    Our valuable Works
+                    Our projects and work, we have been working so far.
                 </div>
                     <a href="#" data-toggle="lightbox" data-gallery="gallery" className="col-md-4">
                         <img src="img1.jpg" className="img-fluid rounded"></img>

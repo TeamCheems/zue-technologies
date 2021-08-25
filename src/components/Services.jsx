@@ -16,7 +16,7 @@ export default function About() {
                             Project for Educational Institute
                         </div>
                         <div className="about-content">
-                            Build a secure, future-proof application through the latest technologies and enhance your user experience
+                           From concept to production, we offer new projects for your educational institutions.
                         </div>
                         <div className="my-4">
                              <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
@@ -28,7 +28,7 @@ export default function About() {
                             Project Guidance for Students
                         </div>
                         <div className="about-content">
-                            Build a secure, future-proof application through the latest technologies and enhance your user experience
+                        Design and integrate your projects with our guidance
                         </div>
                         <div className="my-4">
                              <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
@@ -40,7 +40,7 @@ export default function About() {
                             Project for Public User
                         </div>
                         <div className="about-content">
-                            Build a secure, future-proof application through the latest technologies and enhance your user experience
+                         We are committed to developing projects that will meet and exceed your expectations.
                         </div>
                         <div className="my-4">
                              <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
@@ -52,7 +52,7 @@ export default function About() {
                             Industrial Automation 
                         </div>
                         <div className="about-content">
-                            Build a secure, future-proof application through the latest technologies and enhance your user experience
+                        We building and maintaining quality automation systems that helps you reach your goals.
                         </div>
                         <div className="my-4">
                              <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
@@ -64,7 +64,7 @@ export default function About() {
                             Special Purpose Machine
                         </div>
                         <div className="about-content">
-                            Build a secure, future-proof application through the latest technologies and enhance your user experience
+                        We can design and build automated control systems that will increase safety, quality, productivity, and efficiency
                         </div>
                         <div className="my-4">
                              <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
@@ -76,7 +76,7 @@ export default function About() {
                             Residential Automation
                         </div>
                         <div className="about-content">
-                            Build a secure, future-proof application through the latest technologies and enhance your user experience
+                        Automate your entire facility and integrate it with new or existing equipment.
                         </div>
                         <div className="my-4">
                              <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 

@@ -14,12 +14,14 @@ export default function About() {
                 <div className="row d-flex justify-content-center">
                   <div className="col-12 col-md-5 m-3 bg-light rounded p-4">
                       <div className="about-content">
+                        <strong>About</strong> <br></br>
                         We are a group of engineering enthusiasts, featuring an exclusive range of utility projects for all 
                         industrial automation purposes for handling different processes and machinery in the industry. 
                       </div>
                   </div> 
                   <div className="col-12 col-md-5 m-3 bg-light rounded p-4">
                       <div className="about-content">
+                      <strong>Early Stages</strong> <br></br>
                         Since the advent in 2019, we are committed to developing, building, and maintaining quality automation systems that help you reach your goals.
                       </div>
                   </div>
@@ -27,11 +29,13 @@ export default function About() {
                 <div className="row d-flex justify-content-center">
                   <div className="col-12 col-md-5 m-3 bg-light rounded p-4">
                       <div className="about-content">
+                      <strong>Our Growth</strong> <br></br>
                         Today’s ever-changing technology offers new and innovative ways to approach automation and control issues. To take advantage of these new technologies, you need a partner who understands how to apply them to your needs.
                       </div>
                   </div>
                   <div className="col-12 col-md-5 m-3 bg-light rounded p-4">
                       <div className="about-content">
+                      <strong>Now in 2021</strong> <br></br>
                       No matter how unique your production needs, we are committed to the development of control systems that will reduce your cost of doing business.
                       </div>
                   </div>

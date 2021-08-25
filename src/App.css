@@ -314,3 +314,7 @@ button:hover:active:before {
     font-weight: 600;
   }
 }
+
+.row {
+  margin: 15px;
+}

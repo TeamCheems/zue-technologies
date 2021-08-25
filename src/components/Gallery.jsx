@@ -1,51 +1,30 @@
 export default function Bothub() {
-  
     return (
-      
         <div className="m-5" id="gallery"> 
-<div class="row">
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <img
-      src="img1.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt=""
-    />
-
-    <img
-      src="img2.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt=""
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="img3.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt=""
-    />
-
-    <img
-      src="img4.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt=""
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="img5.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt=""
-    />
-
-    <img
-      src="img6.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt=""
-    />
-  </div>
-</div>
+            <div className="container">
+                <div className="row">
+                    <a href="#" data-toggle="lightbox" data-gallery="gallery" className="col-md-4">
+                        <img src="img1.jpg" className="img-fluid rounded"></img>
+                    </a>
+                    <a href="#" data-toggle="lightbox" data-gallery="gallery" className="col-md-4">
+                        <img src="img2.jpg" className="img-fluid rounded"></img>
+                    </a>
+                    <a href="#" data-toggle="lightbox" data-gallery="gallery" className="col-md-4">
+                        <img src="img3.jpg" className="img-fluid rounded"></img>
+                    </a>
+                </div>
+                <div className="row">
+                    <a href="#" data-toggle="lightbox" data-gallery="gallery" className="col-md-4">
+                        <img src="img4.jpg" className="img-fluid rounded"></img>
+                    </a>
+                    <a href="#" data-toggle="lightbox" data-gallery="gallery" className="col-md-4">
+                        <img src="img5.jpg" className="img-fluid rounded"></img>
+                    </a>
+                    <a href="#" data-toggle="lightbox" data-gallery="gallery" className="col-md-4">
+                        <img src="img6.jpg" className="img-fluid rounded"></img>
+                    </a>
+                </div>
+            </div>
         </div>
         
     )

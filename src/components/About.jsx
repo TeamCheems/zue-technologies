@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section id="about">
       <div className="h-100 d-flex justify-content-center align-items-center">
-        <div className="row mx-5">
+        <div className="row w-75">
           <div className="text-center pt-5 h2" style={{ fontWeight: 'bolder'}}>About Us</div>
             <div className="col-12 col-lg-5 p-0 d-flex align-items-center justify-content-center">
               <img className="picture" src="./favicon.ico" />

@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div id="services"> 
             <div className="p-5">
-                <div className="text-center pt-5 h2 " style={{ fontWeight: 'bolder'}}>Our Expertise</div>
+                <div className="text-center pt-5 h2 " style={{ fontWeight: 'bolder'}}>Our Services</div>
                 <div className="text-center pt-3 pb-3 h6" style={{ fontWeight: '500'}}>
                     Right from app development to scaling your organization, we have all the capabilities you need
                 </div>
@@ -19,7 +19,7 @@ export default function About() {
                             Build a secure, future-proof application through the latest technologies and enhance your user experience
                         </div>
                         <div className="my-4">
-                            Read more <a href="#" style={{fontSize: '10px', color: 'black'}}><FontAwesomeIcon icon={faArrowRight} /></a> 
+                             <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
@@ -31,7 +31,7 @@ export default function About() {
                             Build a secure, future-proof application through the latest technologies and enhance your user experience
                         </div>
                         <div className="my-4">
-                            Read more <a href="#" style={{fontSize: '10px', color: 'black'}}><FontAwesomeIcon icon={faArrowRight} /></a> 
+                             <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
@@ -43,7 +43,7 @@ export default function About() {
                             Build a secure, future-proof application through the latest technologies and enhance your user experience
                         </div>
                         <div className="my-4">
-                            Read more <a href="#" style={{fontSize: '10px', color: 'black'}}><FontAwesomeIcon icon={faArrowRight} /></a> 
+                             <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
@@ -55,7 +55,7 @@ export default function About() {
                             Build a secure, future-proof application through the latest technologies and enhance your user experience
                         </div>
                         <div className="my-4">
-                            Read more <a href="#" style={{fontSize: '10px', color: 'black'}}><FontAwesomeIcon icon={faArrowRight} /></a> 
+                             <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
@@ -67,7 +67,7 @@ export default function About() {
                             Build a secure, future-proof application through the latest technologies and enhance your user experience
                         </div>
                         <div className="my-4">
-                            Read more <a href="#" style={{fontSize: '10px', color: 'black'}}><FontAwesomeIcon icon={faArrowRight} /></a> 
+                             <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
@@ -79,7 +79,7 @@ export default function About() {
                             Build a secure, future-proof application through the latest technologies and enhance your user experience
                         </div>
                         <div className="my-4">
-                            Read more <a href="#" style={{fontSize: '10px', color: 'black'}}><FontAwesomeIcon icon={faArrowRight} /></a> 
+                             <a href="#" style={{fontSize: '15px', color: 'black'}}>Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
                         </div>
                     </div>
                 </div>

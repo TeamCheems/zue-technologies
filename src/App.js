@@ -5,6 +5,8 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Services from './components/Services';
 import Client from './components/Client';
+import Recent from './components/Recent';
+
 
 import './App.css';
 
@@ -18,6 +20,7 @@ function App() {
         <Services></Services>
         <Gallery></Gallery>
         <Client></Client>
+        <Recent></Recent>
         <Contact></Contact>
       </Navbar>
     </div>

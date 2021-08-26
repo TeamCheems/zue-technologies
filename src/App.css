@@ -57,6 +57,9 @@ body {
   font-size: 16px;
   font-weight: 600;
 }
+.font-color {
+  color: #fff
+}
 
 .picture {
   display: block;
@@ -75,7 +78,7 @@ body {
   
 }
 .client .count-con {
-  background-color:#535353;
+  background-color:#3f3f3f;
   padding: 10px 0;
   margin-top: -10px;
   border-radius: 5px;
@@ -86,10 +89,10 @@ body {
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
-  background: #696aa7;
+  font-size: 30px;
+  background: #ffffff;
   padding: 12px;
-  color: #0c0c0c;
+  color: #000000;
   border-radius: 50px;
   margin-top: 10px;
 }
@@ -105,8 +108,9 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  color: rgb(189, 196, 201);;
+  font-size: 25px;
+  font-weight: 1000;
+  color: rgb(221, 221, 221);
 }
 
 
@@ -412,4 +416,11 @@ body::-webkit-scrollbar-thumb {
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+}
+.heading{
+  text-align: center;
+  position: absolute;
+  top: 8px;
+  left: 743px;
+  margin-top: 50px
 }

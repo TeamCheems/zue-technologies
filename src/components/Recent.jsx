@@ -20,6 +20,7 @@ const Recent = ({ slides }) => {
 
   return (
     <section className='slider'>
+      <h2 className='heading'><b> Recents & Upcoming Projects </b></h2>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       {SliderData.map((slide, index) => {

@@ -20,8 +20,8 @@ function App() {
         <Company></Company>
         <About></About>
         <Services></Services>
-        <Gallery></Gallery>
         <Client></Client>
+        <Gallery></Gallery>
         <Recent slides={SliderData}/>
         <Contact></Contact>
       </Navbar>

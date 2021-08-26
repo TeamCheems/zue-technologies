@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Client from './components/Client';
 import Recent from './components/Recent';
 import Company from './components/Company';
+import Feedback from './components/Feedback';
 import { SliderData } from './components/SliderData';
 
 
@@ -20,9 +21,10 @@ function App() {
         <Company></Company>
         <About></About>
         <Services></Services>
-        <Client></Client>
         <Gallery></Gallery>
+        <Client></Client>
         <Recent slides={SliderData}/>
+        <Feedback slides={SliderData}/>
         <Contact></Contact>
       </Navbar>
     </div>

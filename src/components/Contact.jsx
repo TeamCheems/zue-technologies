@@ -26,7 +26,7 @@ export default function Home() {
                 </div>
                 </div>
                 <div class="container">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-md-11 col-sm-6 col-xs-12">
                         <ul class="social-icons">
                             <li><a class="facebook" href="https://www.facebook.com/zuetechnologies.zuetechnologies"><FontAwesomeIcon icon={faFacebook} /><i class="fa fa-facebook"></i></a></li>
                             <li><a class="youtube" href="#"><FontAwesomeIcon icon={faYoutube} /><i class="fa fa-youtube"></i></a></li>

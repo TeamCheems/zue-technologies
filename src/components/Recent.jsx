@@ -1,27 +1,41 @@
-export default function Bothub() {
-    return (
-        <div className="m-5" id="gallery"> 
-          <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel"> 
-            <div className="carousel-inner">
-              <div Name="carousel-item active">
-                <img src="img1.jpg" className="d-block w-100" alt="..."/>
-              </div>
-              <div className="carousel-item">
-                <img src="img2.jpg" className="d-block w-100" alt="..."/>
-              </div>
-              <div className="carousel-item">
-                <img src="img3.jpg" className="d-block w-100" alt="..."/>
-              </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
+import { useState } from 'react';
+import { SliderData } from './SliderData';
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+
+const Recent = ({ slides }) => {
+  const [current, setCurrent] = useState(0);
+  const length = slides.length;
+
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  };
+
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  };
+
+  if (!Array.isArray(slides) || slides.length <= 0) {
+    return null;
+  }
+
+  return (
+    <section className='slider'>
+      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
+      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+      {SliderData.map((slide, index) => {
+        return (
+          <div
+            className={index === current ? 'slide active' : 'slide'}
+            key={index}
+          >
+            {index === current && (
+              <img src={slide.image} alt='travel image' className='image' />
+            )}
           </div>
-        </div>
-    )
-} 
+        );
+      })}
+    </section>
+  );
+};
+
+export default Recent;

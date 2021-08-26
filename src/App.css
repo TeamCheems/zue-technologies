@@ -74,6 +74,12 @@ body {
   text-align: center;
   
 }
+.client .count-con {
+  background-color:#535353;
+  padding: 10px 0;
+  margin-top: -10px;
+  border-radius: 5px;
+}
 
 .client .count-box i {
   position: absolute;
@@ -92,7 +98,7 @@ body {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: rgb(189, 196, 201);
+  color: rgb(255, 255, 255);
 }
 
 .client .count-box p {
@@ -100,7 +106,7 @@ body {
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
-  color: #fff;
+  color: rgb(189, 196, 201);;
 }
 
 

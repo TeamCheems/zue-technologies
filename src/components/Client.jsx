@@ -11,6 +11,7 @@ export default function Client() {
 
           <div class="col-lg-3 col-md-6">
             <div class="count-box">
+            <div class="count-con">
               <i class="icofont-simple-smile"></i>
               <CountUp
               start={0}
@@ -19,10 +20,12 @@ export default function Client() {
               />
               <p><b>Clients</b></p>
             </div>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
+            <div class="count-con">
               <i class="icofont-document-folder"></i>
               <CountUp
               start={0}
@@ -30,11 +33,13 @@ export default function Client() {
               duration={5}
               />
               <p><b>Projects</b></p>
+              </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
+            <div class="count-con">
               <i class="icofont-live-support"></i>
               <CountUp
               start={0}
@@ -43,10 +48,12 @@ export default function Client() {
               />
               <p><b>Hours Of Work</b></p>
             </div>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
+            <div class="count-con">
               <i class="icofont-users-alt-5"></i>
               <CountUp
               start={0}
@@ -54,6 +61,7 @@ export default function Client() {
               duration={5}
               />
               <p><b>Diligent Workers</b></p>
+            </div>
             </div>
           </div>
 

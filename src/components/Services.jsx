@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div id="services"> 
             <div className="p-5">
-                <div className="text-center pt-5 h2 " style={{ fontWeight: 'bolder'}}>Our Services</div>
+                <div className="text-center pt-5 h2 " style={{ fontWeight: 'bolder'}}>Our Mastery</div>
                 <div className="text-center pt-3 pb-3 h6" style={{ fontWeight: '500'}}>
                     Right from app development to scaling your organization, we have all the capabilities you need
                 </div>

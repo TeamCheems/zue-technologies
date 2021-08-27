@@ -1,27 +1,27 @@
 import { useState } from 'react';
-import { SliderData } from './SliderData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+// import { SliderData } from './SliderData';
+// import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
-const Feedback = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
-  const length = slides.length;
+// const Feedback = ({ slides }) => {
+//   const [current, setCurrent] = useState(0);
+//   const length = slides.length;
 
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
+//   const nextSlide = () => {
+//     setCurrent(current === length - 1 ? 0 : current + 1);
+//   };
 
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
+//   const prevSlide = () => {
+//     setCurrent(current === 0 ? length - 1 : current - 1);
+//   };
 
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
-  }
+//   if (!Array.isArray(slides) || slides.length <= 0) {
+//     return null;
+//   }
 
-  return (
+export default function Feedback(){  
+return (
     <section className='slider'>
-      <h2 className='heading'><b> Clients Response for our work ! </b></h2>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
+      {/* <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       {SliderData.map((slide, index) => {
         return (
@@ -34,9 +34,10 @@ const Feedback = ({ slides }) => {
             )}
           </div>
         );
-      })}
-    </section>
-  );
-};
+      })} */}
+    <h1> Contact</h1>
+        </section>
+  )
+}
 
-export default Feedback;
+

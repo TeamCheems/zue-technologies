@@ -4,37 +4,34 @@ body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
-.floating { 
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  margin-left: 30px;
-  margin-top: 5px;
-}
 
-@keyframes floating {
-  0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 15px); }
-  100%   { transform: translate(0, -0px); }   
-}
+/* home */
+
 .title-small {
   font-size: 50px;
 }
 .title-large {
-  /* style={{ fontWeight: 'bolder',fontSize: '70px' }} */
   font-weight: bolder;
   font-size: 70px;
 }
 .pic {
-  height: 25rem;
+  height: 15rem;
 }
-.pic-sm{
+.pic-sm {
   display: none;
+}
+.bg-img {
+  background-image: url("./img/frontpic.png");
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero {
   min-height: 100vh;
+  margin-top: -50px;
 }
+
+/* end of home */
 
 .navbar-heading {
   font-size: 1.7rem !important;
@@ -75,7 +72,7 @@ body {
   font-weight: 600;
 }
 .font-color {
-  color: #fff
+  color: #fff;
 }
 
 .picture {
@@ -92,10 +89,9 @@ body {
   width: 100%;
   position: relative;
   text-align: center;
-  
 }
 .client .count-con {
-  background-color:#3f3f3f;
+  background-color: #3f3f3f;
   padding: 10px 10px;
   margin-top: -10px;
   margin-bottom: 10px;
@@ -130,15 +126,17 @@ body {
   color: rgb(221, 221, 221);
 }
 
-
 @media (max-width: 768px) {
   .navbar-heading {
     font-size: 1.5rem !important;
     font-weight: bold;
   }
-  .pic-sm{
+  .pic-sm {
     display: block;
-    height: 20rem;
+    height: 10rem;
+    position: absolute;
+    transform: translateY(-30%);
+    transform: translateX(30%);
   }
   .title-small {
     font-size: 30px;
@@ -437,10 +435,29 @@ body::-webkit-scrollbar-thumb {
   transition-duration: 1s;
   transform: scale(1.08);
 }
-.heading{
+.heading {
   text-align: center;
   position: absolute;
   top: 8px;
   left: 743px;
-  margin-top: 50px
+  margin-top: 50px;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }

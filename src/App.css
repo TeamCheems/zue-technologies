@@ -16,12 +16,13 @@ body {
 }
 .pic {
   height: 15rem;
+  margin-left: 10%;
 }
 .pic-sm {
   display: none;
 }
 .bg-img {
-  background-image: url("./img/frontpic.png");
+  background-image: url("./img/space.jpg");
   background-size: 70% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -455,7 +456,7 @@ body::-webkit-scrollbar-thumb {
     transform: translate(0, 0px);
   }
   50% {
-    transform: translate(0, 15px);
+    transform: translate(0, 5px);
   }
   100% {
     transform: translate(0, -0px);

@@ -23,19 +23,19 @@ export default function About() {
             content: "We are committed to developing projects that will meet and exceed your expectations. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
         }, 
         4: { 
-            title: "Project for Public User",
+            title: "Industrial Automation ",
             icon: faUsers,
-            content: "We are committed to developing projects that will meet and exceed your expectations. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
+            content: "We building and maintaining quality automation systems that helps you reach your goals. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
         },
         5: { 
-            title: "Project for Public User",
+            title: "Special Purpose Machine",
             icon: faUsers,
-            content: "We are committed to developing projects that will meet and exceed your expectations. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
+            content: "We can design and build automated control systems that will increase safety, quality, productivity, and efficiency Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
         },
         6: { 
-            title: "Project for Public User",
+            title: "Residential Automation",
             icon: faUsers,
-            content: "We are committed to developing projects that will meet and exceed your expectations. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
+            content: "Automate your entire facility and integrate it with new or existing equipment. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
         },
     } ;
 

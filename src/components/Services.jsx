@@ -24,12 +24,12 @@ export default function About() {
         }, 
         4: { 
             title: "Industrial Automation ",
-            icon: faUsers,
+            icon: faCogs,
             content: "We building and maintaining quality automation systems that helps you reach your goals. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
         },
         5: { 
             title: "Special Purpose Machine",
-            icon: faUsers,
+            icon: faHome,
             content: "We can design and build automated control systems that will increase safety, quality, productivity, and efficiency Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
         },
         6: { 

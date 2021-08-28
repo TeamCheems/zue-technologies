@@ -35,7 +35,7 @@ return (
           </div>
         );
       })} */}
-    <h1> Contact</h1>
+    <h1> Testimonial</h1>
         </section>
   )
 }

@@ -4,6 +4,20 @@ body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+.floating { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
 .title-small {
   font-size: 50px;
 }
@@ -14,6 +28,9 @@ body {
 }
 .pic {
   height: 25rem;
+}
+.pic-sm{
+  display: none;
 }
 .hero {
   min-height: 100vh;
@@ -118,6 +135,10 @@ body {
   .navbar-heading {
     font-size: 1.5rem !important;
     font-weight: bold;
+  }
+  .pic-sm{
+    display: block;
+    height: 20rem;
   }
   .title-small {
     font-size: 30px;

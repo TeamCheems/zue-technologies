@@ -24,8 +24,12 @@ export default function Home(){
                             <button id="getintouch" className="btn-lg my-5 shadow-lg">Get in touch</button>
                     </div>
                     <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 my-auto padding_zero">
-                        <img className="pic " src="frontpic.png"/>
+                        
+                        <img className="pic" src="frontpic.png"/>
+                        <img className="pic-sm floating" src="ROBOT.png"/>
                     </div>
+                    
+                    
                 </div>
             </div>
         </div>

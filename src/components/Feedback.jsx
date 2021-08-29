@@ -21,7 +21,7 @@ import React from "react";
 
 export default function Feedback(){  
 return (
-    <section className='slider'>
+    <section  class="client" style = {{minHeignt: '200vh'}}>
       {/* <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       {SliderData.map((slide, index) => {

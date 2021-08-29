@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 export default function Client() {
   return (
-        <section id="client" class="client bg-dark "style = {{minHeignt: '20vh'}}>
+        <section id="client" class="client bg-dark" style = {{minHeignt: '20vh'}}>
           <div className="text-center pt-4 font-color h2" style={{ fontWeight: 'bold'}}>Our Statistics </div>
       <div class="container" data-aos="fade-up" data-aos-duration="2000">
 

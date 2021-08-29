@@ -46,7 +46,7 @@ export default function About() {
                 <div className="text-center pt-3 pb-3 h6" style={{ fontWeight: '500'}}>
                     Right from app development to scaling your organization, we have all the capabilities you need
                 </div>
-                <div className="row justify-content-center my-3">
+                <div className="row justify-content-center my-3"data-aos="fade-up" data-aos-duration="2000">
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
                         <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faUniversity} /></a> 
                         <div className="about-title my-3">

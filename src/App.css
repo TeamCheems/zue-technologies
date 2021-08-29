@@ -15,7 +15,7 @@ body {
   font-size: 70px;
 }
 .pic {
-  height: 15rem;
+  height: 30rem;
   margin-left: 10%;
 }
 .pic-sm {
@@ -23,7 +23,7 @@ body {
 }
 .bg-img {
   background-image: url("./img/space.jpg");
-  background-size: 70% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -456,7 +456,7 @@ body::-webkit-scrollbar-thumb {
     transform: translate(0, 0px);
   }
   50% {
-    transform: translate(0, 5px);
+    transform: translate(0, 15px);
   }
   100% {
     transform: translate(0, -0px);

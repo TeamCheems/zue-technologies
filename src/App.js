@@ -9,6 +9,8 @@ import Recent from './components/Recent';
 import Company from './components/Company';
 import Feedback from './components/Feedback';
 import { SliderData } from './components/SliderData';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 import './App.css';

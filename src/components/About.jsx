@@ -7,10 +7,10 @@ export default function About() {
       <div className="h-100 d-flex justify-content-center align-items-center">
         <div className="row w-75">
           <div className="text-center pt-5 h2" style={{ fontWeight: 'bolder'}}>About Us</div>
-            <div className="col-12 col-lg-5 p-0 d-flex align-items-center justify-content-center">
+            <div className="col-12 col-lg-5 p-0 d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="2000">
               <img className="picture" src="./favicon.ico" />
             </div>
-            <div className="col-12 col-lg-7 p-0">
+            <div className="col-12 col-lg-7 p-0" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row d-flex justify-content-center">
                   <div className="col-12 col-md-5 m-3 bg-light rounded p-4">
                       <div className="about-content">

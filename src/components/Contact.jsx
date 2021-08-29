@@ -3,6 +3,7 @@ import { faInstagram, faFacebook, faLinkedin, faYoutube } from '@fortawesome/fre
 export default function Home() {
     return (
         // <div className="vh-100 bg-dark" id="contact"> 
+        <section id="contact">
             <footer class="site-footer">
                 <div class="container">
                 <div class="row">
@@ -43,6 +44,8 @@ export default function Home() {
                     </div>
                 </div>
             </footer>
-        // </div>
+            </section>
+        //  </div>
+        
     )
 }

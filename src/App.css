@@ -445,6 +445,34 @@ body::-webkit-scrollbar-thumb {
     margin: 15px;
   }
 }
+@media (width: 768px){
+  .image {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    }
+    .slider {
+      position: relative;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+@media (width: 1024px){
+  .image {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    }
+    .slider {
+      position: relative;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
 
 .right-arrow {
   position: absolute;

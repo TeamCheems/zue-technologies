@@ -5,7 +5,7 @@ export default function Gallery() {
             <div data-aos="fade-in" data-aos-duration="2000">
                     <div className="text-center pt-5 h2 " style={{ fontWeight: 'bolder'}}>Gallery</div>
                     <div className="text-center pt-3 pb-3 h6" style={{ fontWeight: '500'}}>
-                    Our projects and work, we have been working so far.
+                    Our projects and work, we have been worked so far.
                     </div>
                             {/* <!-- Grid row --> */}
                             <div className="row">

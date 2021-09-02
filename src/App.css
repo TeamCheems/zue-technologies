@@ -441,9 +441,6 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
     user-select: none;
   }
-  .row-car {
-    margin: 15px;
-  }
 }
 @media (width: 768px){
   .image {

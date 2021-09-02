@@ -21,7 +21,7 @@ const Recent = ({ slides }) => {
   return (
     <>
     <div className="text-center pt-5 h2" style={{ fontWeight: 'bolder'}}>Our Recent & Upcoming</div>
-    <section className="slider row-car" data-aos="fade-up" data-aos-duration="2000">
+    <section className="slider row-car container" data-aos="fade-up" data-aos-duration="2000">
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
       {SliderData.map((slide, index) => {

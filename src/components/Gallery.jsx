@@ -1,4 +1,4 @@
-export default function Bothub() {
+export default function Gallery() {
     return (
         <div className="m-5" id="gallery"> 
             <div className="container">

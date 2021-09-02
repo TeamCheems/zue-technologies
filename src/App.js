@@ -26,7 +26,7 @@ function App() {
         <Gallery></Gallery>
         <Client></Client>
         <Recent slides={SliderData}/>
-        <Feedback slides={SliderData}/>
+        <Feedback/>
         <Contact></Contact>
       </Navbar>
     </div>

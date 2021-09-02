@@ -27,6 +27,7 @@
     "react-headroom": "^3.1.1",
     "react-icofont": "^1.0.19",
     "react-icons": "^4.2.0",
+    "react-image-scroller": "^0.3.0",
     "react-scripts": "4.0.3",
     "react-typing-animation": "^1.6.2",
     "typewriter-effect": "^2.18.0",

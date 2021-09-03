@@ -10,32 +10,32 @@ export default function About() {
         1: { 
             title: "Project for Educational Institute",
             icon: faUniversity,
-            content: "From concept to production, we offer new projects for your educational institutions. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
+            content: "Study of industry needs and adaptation of teaching accordingly, in all types of learning areas so we offering new and high-end engineering projects from concept to product for your institutions. This improvise the educational standards and enhanced experience on advanced technology.", 
         },
         2: { 
             title: "Project Guidance for Students",
             icon: faChalkboardTeacher,
-            content: "Design and integrate your projects with our guidance. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
+            content: "We guide students to understand, develop and build the own concept to final product and provoke their interest in the specific field with hands-on experience.", 
         },
         3: { 
             title: "Project for Public User",
             icon: faUsers,
-            content: "We are committed to developing projects that will meet and exceed your expectations. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
+            content: "Competing in a current manufacturing world requires your process to be efficient and productive, and to produce quality products. Our skill sets, experience, and knowledge of this industry allow us to create a winning solution.", 
         }, 
         4: { 
             title: "Industrial Automation ",
             icon: faCogs,
-            content: "We building and maintaining quality automation systems that helps you reach your goals. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
+            content: "Today’s ever-changing technology offers new and innovative ways to automate and control issues. To take advantage of these new technologies, you need a partner who understands how to apply them to your needs. From concept to product we are committed in developing and maintaining quality automation systems that assist in meeting your company’s production goals.", 
         },
         5: { 
             title: "Special Purpose Machine",
             icon: faHome,
-            content: "We can design and build automated control systems that will increase safety, quality, productivity, and efficiency Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
+            content: "We can help specify and install custom automation equipment and control to withstand the challenges in your facility with reduced downtime, improved quality, increased efficiency and production, and enhanced safety.", 
         },
         6: { 
             title: "Residential Automation",
             icon: faUsers,
-            content: "Automate your entire facility and integrate it with new or existing equipment. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
+            content: "We have design custom automation solutions around robotic platforms that completely automated what was once a manual operation. We understand the growing innovation of this sector and have the engineering skill, experience, and knowledge needed to stay ahead of the competition.", 
         },
     } ;
 

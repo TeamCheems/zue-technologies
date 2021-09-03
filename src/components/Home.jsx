@@ -9,13 +9,6 @@ export default function Home(){
         AOS.init({
         });
       }, []);
-      var [popupIndex, setPopupIndex] = useState(1); 
-
-    const popupContent = {
-        1: { 
-            title: "Project for Educational Institute",
-            content: "From concept to production, we offer new projects for your educational institutions. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque obcaecati vel accusantium iure autem inventore rem! Libero, reprehenderit fugit? Culpa incidunt provident excepturi suscipit mollitia recusandae dolor corporis voluptate?", 
-        },};
     return (
         <div className="vh-100" id="home"> 
             <div className="hero d-flex justify-content-center align-items-center">
@@ -36,7 +29,7 @@ export default function Home(){
                             ],
                         }}/>
                             </h1>
-                            <button id="getintouch" className="btn-lg my-5 shadow-lg" onClick={() => { setPopupIndex(1) }} data-bs-toggle="modal" data-bs-target="#readMoreModal">Get in touch</button> 
+                            <button id="getintouch" className="btn-lg my-5 shadow-lg">Get in touch</button> 
                     </div>
                     </div>
                     <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 my-auto padding_zero text-center" data-aos={"zoom-out"}>
@@ -44,26 +37,6 @@ export default function Home(){
                         </div>
                 </div>
             </div>
-
-            <div class="modal fade" id="readMoreModal" tabindex="-1" aria-labelledby="readMoreModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
-                    <div class="modal-content">
-                    <div class="modal-body p-5">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}></a> 
-                        <div className="about-title my-3">
-                            {popupContent[popupIndex].title}
-                        </div>
-                        <div className="about-content">
-                            {popupContent[popupIndex].content}
-                        </div>
-                    </div>
-                    <div class="modal-footer border-white">
-                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     )
 };

@@ -1,13 +1,13 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
-import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Services from './components/Services';
 import Client from './components/Client';
 import Recent from './components/Recent';
 import Company from './components/Company';
 import Feedback from './components/Feedback';
+import Test from './components/Test';
 import { SliderData } from './components/SliderData';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -23,7 +23,7 @@ function App() {
         <Company></Company>
         <About></About>
         <Services></Services>
-        <Gallery></Gallery>
+        <Test></Test>
         <Client></Client>
         <Recent slides={SliderData}/>
         <Feedback/>

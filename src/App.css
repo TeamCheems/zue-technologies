@@ -523,3 +523,5 @@ body::-webkit-scrollbar-thumb {
     transform: translate(0, -0px);
   }
 }
+.mySlides {display:none;}
+.xi {display: block;}

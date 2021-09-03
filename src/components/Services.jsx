@@ -29,12 +29,12 @@ export default function About() {
         },
         5: { 
             title: "Special Purpose Machine",
-            icon: faHome,
+            icon: faRocket,
             content: "We can help specify and install custom automation equipment and control to withstand the challenges in your facility with reduced downtime, improved quality, increased efficiency and production, and enhanced safety.", 
         },
         6: { 
             title: "Residential Automation",
-            icon: faUsers,
+            icon: faHome,
             content: "We have design custom automation solutions around robotic platforms that completely automated what was once a manual operation. We understand the growing innovation of this sector and have the engineering skill, experience, and knowledge needed to stay ahead of the competition.", 
         },
     } ;
@@ -48,7 +48,7 @@ export default function About() {
                 </div>
                 <div className="row justify-content-center my-3"data-aos="fade-up" data-aos-duration="2000">
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faUniversity} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}} onClick={() => { setPopupIndex(1) }} data-bs-toggle="modal" data-bs-target="#readMoreModal"><FontAwesomeIcon icon={faUniversity} /></a> 
                         <div className="about-title my-3">
                             Project for Educational Institute
                         </div>
@@ -56,11 +56,11 @@ export default function About() {
                            From concept to production, we offer new projects for your educational institutions.
                         </div>
                         <div className="my-4">
-                             <a href="#" style={{fontSize: '15px', color: 'black'}} onClick={() => { setPopupIndex(1) }} data-bs-toggle="modal" data-bs-target="#readMoreModal">Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
+                             <a style={{fontSize: '15px', color: 'black'}} onClick={() => { setPopupIndex(1) }} data-bs-toggle="modal" data-bs-target="#readMoreModal">Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faChalkboardTeacher} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}} onClick={() => { setPopupIndex(2) }} data-bs-toggle="modal" data-bs-target="#readMoreModal"><FontAwesomeIcon icon={faChalkboardTeacher} /></a> 
                         <div className="about-title my-3">
                             Project Guidance for Students
                         </div>
@@ -72,7 +72,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faUsers} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}} onClick={() => { setPopupIndex(3) }} data-bs-toggle="modal" data-bs-target="#readMoreModal"><FontAwesomeIcon icon={faUsers} /></a> 
                         <div className="about-title my-3">
                             Project for Public User
                         </div>
@@ -84,7 +84,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faCogs} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}} onClick={() => { setPopupIndex(4) }} data-bs-toggle="modal" data-bs-target="#readMoreModal"><FontAwesomeIcon icon={faCogs} /></a> 
                         <div className="about-title my-3">
                             Industrial Automation 
                         </div>
@@ -96,7 +96,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faRocket} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}} onClick={() => { setPopupIndex(5) }} data-bs-toggle="modal" data-bs-target="#readMoreModal"><FontAwesomeIcon icon={faRocket} /></a> 
                         <div className="about-title my-3">
                             Special Purpose Machine
                         </div>
@@ -108,7 +108,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">
-                        <a href="#" style={{fontSize: '60px', color: 'black'}}><FontAwesomeIcon icon={faHome} /></a> 
+                        <a href="#" style={{fontSize: '60px', color: 'black'}} onClick={() => { setPopupIndex(6) }} data-bs-toggle="modal" data-bs-target="#readMoreModal"><FontAwesomeIcon icon={faHome} /></a> 
                         <div className="about-title my-3">
                             Residential Automation
                         </div>

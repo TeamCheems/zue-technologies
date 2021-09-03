@@ -56,7 +56,7 @@ export default function About() {
                            From concept to production, we offer new projects for your educational institutions.
                         </div>
                         <div className="my-4">
-                             <a style={{fontSize: '15px', color: 'black'}} onClick={() => { setPopupIndex(1) }} data-bs-toggle="modal" data-bs-target="#readMoreModal">Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
+                             <a href="#" style={{fontSize: '15px', color: 'black'}} onClick={() => { setPopupIndex(1) }} data-bs-toggle="modal" data-bs-target="#readMoreModal">Read more<FontAwesomeIcon icon={faArrowRight} /></a> 
                         </div>
                     </div>
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">

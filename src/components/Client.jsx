@@ -16,7 +16,7 @@ export default function Client() {
               <i class="icofont-simple-smile"></i>
               <CountUp
               start={0}
-              end={92}
+              end={160}
               duration={5}
               />
               <p><b>Clients</b></p>
@@ -30,7 +30,7 @@ export default function Client() {
               <i class="icofont-document-folder"></i>
               <CountUp
               start={0}
-              end={86}
+              end={120}
               duration={5}
               />
               <p><b>Projects</b></p>
@@ -44,7 +44,7 @@ export default function Client() {
               <i class="icofont-live-support"></i>
               <CountUp
               start={0}
-              end={1560}
+              end={8400}
               duration={5}
               />
               <p><b>Hours Of Work</b></p>
@@ -58,7 +58,7 @@ export default function Client() {
               <i class="icofont-users-alt-5"></i>
               <CountUp
               start={0}
-              end={100}
+              end={18}
               duration={5}
               />
               <p><b>Diligent Workers</b></p>

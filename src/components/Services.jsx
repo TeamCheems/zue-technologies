@@ -44,7 +44,7 @@ export default function About() {
             <div className="p-5">
                 <div className="text-center pt-5 h2 " style={{ fontWeight: 'bolder'}}>Our Mastery</div>
                 <div className="text-center pt-3 pb-3 h6" style={{ fontWeight: '500'}}>
-                    Right from app development to scaling your organization, we have all the capabilities you need
+                    You dream it, we build it....
                 </div>
                 <div className="row justify-content-center my-3"data-aos="fade-up" data-aos-duration="2000">
                     <div className="col-12 col-md-3 m-3 bg-light rounded p-4">

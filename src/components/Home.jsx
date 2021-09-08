@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import Typewriter from 'typewriter-effect'; 
 import Aos from 'aos';
-import { useState } from 'react'; 
 
 export default function Home(){
     var AOS = require('aos');

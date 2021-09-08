@@ -28,7 +28,7 @@ export default function Home(){
                             ],
                         }}/>
                             </h1>
-                            <button id="getintouch" className="btn-lg my-5 shadow-lg">Get in touch</button> 
+                            <a href="https://chat.whatsapp.com/DV5Q8VxGB8o1sHe2V4Suwc"><button id="getintouch" className="btn-lg my-5 shadow-lg">Get in touch</button></a>
                     </div>
                     </div>
                     <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 my-auto padding_zero text-center" data-aos={"zoom-out"}>

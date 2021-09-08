@@ -138,6 +138,7 @@ export default function About() {
                     </div>
                     <div class="modal-footer border-white">
                         <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                        <a href="https://chat.whatsapp.com/DV5Q8VxGB8o1sHe2V4Suwc"><button type="button" class="btn btn-dark">Get in touch</button></a>
                     </div>
                     </div>
                 </div>

@@ -58,7 +58,7 @@ export default function Client() {
               <i class="icofont-users-alt-5"></i>
               <CountUp
               start={0}
-              end={18}
+              end={19}
               duration={5}
               />
               <p><b>Diligent Workers</b></p>

@@ -31,10 +31,10 @@ export default function Navbar(props) {
               <li className="my-3 text-end"><a className="menu-link" href="#gallery" onClick={collapse}>Gallery</a></li>
               <li className="my-3 text-end"><a className="menu-link" href="#contact" onClick={collapse}>Contact us</a></li>
               <li className="my-3 d-flex justify-content-end">
-                <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faFacebook} /></a> 
-                <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faInstagram} /></a> 
-                <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faLinkedin} /></a> 
-                <a href="#" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faYoutube} /></a> 
+                <a href="https://www.facebook.com/zuetechnologies.zuetechnologies" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faFacebook} /></a> 
+                <a href="https://www.instagram.com/zue_technologies/?hl=en" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faInstagram} /></a> 
+                <a href="https://www.linkedin.com/in/zue-technologies-7514a21b9/" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faLinkedin} /></a> 
+                <a href="https://youtube.com/channel/UCt1c-lSSaqtnH_JJRB_1Trw" className="navbar-link mx-2 h2"><FontAwesomeIcon icon={faYoutube} /></a> 
               </li>
               </ul>
             </div>

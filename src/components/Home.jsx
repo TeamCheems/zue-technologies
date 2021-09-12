@@ -23,7 +23,7 @@ export default function Home(){
                             delay: 150,
                             strings:[
                                 "Industrial Automation Solutions.",
-                                "Students Project Work Guidance.",
+                                "Students Project Guidance.",
                                 "Developing Your Ideas."
                             ],
                         }}/>

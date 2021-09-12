@@ -10,7 +10,7 @@ export default function Feedback(){
             <div data-aos="fade-up" data-aos-duration="2000">
                 <div className="row d-flex justify-content-center">
                   <div className="col-12 col-md-5 m-3 bg-light rounded p-4">
-                      <div className="row img-fluid col-md-3">                    
+                      <div className="row img-fluid col-md-4">                    
                         <img className="img-fluid " src="img1.jpg"/>
                         </div>
                       <div className="about-content ">
@@ -18,7 +18,7 @@ export default function Feedback(){
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                      </div>
                   </div> 
                   <div className="col-12 col-md-5 m-3 bg-light rounded p-4">
-                    <div className=" row img-fluid col-md-3">
+                    <div className=" row img-fluid col-md-4">
                   <img className="img-fluid" src="img1.jpg"/>
                   </div>
                       <div className="about-content">
@@ -28,7 +28,7 @@ export default function Feedback(){
                 </div>
                 <div className="row d-flex justify-content-center">
                   <div className="col-12 col-md-5 m-3 bg-light rounded p-4">
-                    <div className="row img-fluid col-md-3">
+                    <div className="row img-fluid col-md-4">
                   <img className="img-fluid" src="img1.jpg"/>
                   </div>
                       <div className="about-content">
@@ -36,7 +36,7 @@ export default function Feedback(){
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                      </div>
                   </div>
                   <div className="col-12 col-md-5 m-3 bg-light rounded p-4">
-                    <div className="row img-fluid col-md-3">
+                    <div className="row img-fluid col-md-4">
                   <img className="img-fluid" src="img1.jpg"/>
                   </div>
                       <div className="about-content">

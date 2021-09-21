@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faLinkedin, faYoutube, } from '@fortawesome/free-brands-svg-icons'
+
+
 export default function Home() {
     return (
         // <div className="vh-100 bg-dark" id="contact"> 
@@ -14,11 +16,11 @@ export default function Home() {
                         </div>
 
                         <div class="col-lg-4 col-md-6 mb-4 justify-content-center flex-column text-justify">
-                            <h6><FontAwesomeIcon icon={faFacebook} /><i class="fa fa-facebook"></i>   Phone</h6>
+                            <h6><FontAwesomeIcon icon={faFacebook} /><i class="fa fa-Facebook"></i>   Phone</h6>
                             <p>8870795518</p>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4 justify-content-center flex-column text-justify">
-                        <h6><FontAwesomeIcon icon={faFacebook} /><i class="fa fa-facebook"></i>  Email</h6>
+                        <h6><FontAwesomeIcon icon={faYoutube} /><i class="fa fa-Youtube"></i>  Email</h6>
                             <p>zuetechnologies@gmail.com</p>
                             </div>  
                     </div>
@@ -30,7 +32,7 @@ export default function Home() {
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4 justify-content-center flex-column text-justify">
                         <h6><FontAwesomeIcon icon={faFacebook} /><i class="fa fa-facebook"></i>   Location</h6>
-                            <p>Coimbatore</p>
+                            <a href="https://maps.google.com/?cid=12831046214844166325&entry=gps">Google maps </a>
                         
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4 justify-content-center flex-column text-justify">

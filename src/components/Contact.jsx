@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faFacebook, faLinkedin, faYoutube, } from '@fortawesome/free-brands-svg-icons'
-
-
+import { faInstagram, faFacebook, faLinkedin, faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope,faPhoneAlt,faAddressCard,faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons'
 export default function Home() {
     return (
         // <div className="vh-100 bg-dark" id="contact"> 
@@ -16,23 +15,25 @@ export default function Home() {
                         </div>
 
                         <div class="col-lg-4 col-md-6 mb-4 justify-content-center flex-column text-justify">
-                            <h6><FontAwesomeIcon icon={faFacebook} /><i class="fa fa-Facebook"></i>   Phone</h6>
+                            <h6><FontAwesomeIcon icon={faPhoneAlt} /><i class="fa fa-phonealt"></i>   Phone</h6>
                             <p>8870795518</p>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4 justify-content-center flex-column text-justify">
-                        <h6><FontAwesomeIcon icon={faYoutube} /><i class="fa fa-Youtube"></i>  Email</h6>
+                        <h6><FontAwesomeIcon icon={faEnvelope} /><i class="fa fa-envelope"></i>  Email</h6>
                             <p>zuetechnologies@gmail.com</p>
                             </div>  
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-4 justify-content-center flex-column text-justify">
-                        <h6><FontAwesomeIcon icon={faFacebook} /><i class="fa fa-facebook"></i>   Address</h6>
-                            <p>Coimbatore</p>
+                        <h6><FontAwesomeIcon icon={faAddressCard} /><i class="fa fa-addresscard"></i>   Address</h6>
+                            <p>9B, Anboli Nagar,</p> 
+                            <p>Chitra Nagar, Saravanampatti, </p>
+                            <p>Coimbatore, Tamil Nadu - 641006.</p>
                         
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4 justify-content-center flex-column text-justify">
-                        <h6><FontAwesomeIcon icon={faFacebook} /><i class="fa fa-facebook"></i>   Location</h6>
-                            <a href="https://maps.google.com/?cid=12831046214844166325&entry=gps">Google maps </a>
+                        <h6><FontAwesomeIcon icon={faMapMarkerAlt} /><i class="fa fa-mapmakeralt"></i>   Location</h6>
+                            <p>Coimbatore</p>
                         
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4 justify-content-center flex-column text-justify">
